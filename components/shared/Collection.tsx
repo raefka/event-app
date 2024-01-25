@@ -3,7 +3,7 @@ import React from 'react';
 import Card from './Card';
 
 type CollectionProps ={
-    data :IEvent,
+    data :IEvent[],
     emptyTitle : string,
     emptyStateSubtext :string,
     limit:number,
